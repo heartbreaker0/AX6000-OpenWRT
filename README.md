@@ -1,10 +1,8 @@
-**English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
-
-# Actions-OpenWrt
+# Auto Openwrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
 
-A template for building OpenWrt with GitHub Actions
+A repository for automatically compiling firmware
 
 ## Special Thanks to P3TERX's [Template](https://github.com/P3TERX/Actions-OpenWrt/generate)
 
