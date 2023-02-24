@@ -13,11 +13,11 @@ name: Build Redmi AX6000 LEDE
 on:
   repository_dispatch:
   workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'false'
+#     inputs:
+#       ssh:
+#         description: 'SSH connection to Actions'
+#         required: false
+#         default: 'false'
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -154,6 +154,7 @@ jobs:
       with:
         retain_days: 1
         keep_minimum_runs: 3
+        token: ${{ secrets.ACTION }}
 
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.1.0
