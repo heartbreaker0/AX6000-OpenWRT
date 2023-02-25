@@ -1,6 +1,7 @@
 # Auto Openwrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fheartbreaker0%2FAuto-OpenWRT%2Fbadge%3Fref%3Dmain&style=for-the-badge)](https://actions-badge.atrox.dev/heartbreaker0/Auto-OpenWRT/goto?ref=main)
 
 A repository for automatically compiling firmware
 
